@@ -1,0 +1,25 @@
+.todos{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  color: whitesmoke;
+  margin: 10px;
+  
+}
+.todos h3{
+    font-size: 20px;
+    font-style: italic;
+}
+.todos button{
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.todo-checkbox:checked + .text{
+     text-decoration: line-through; 
+     opacity: 0.6;
+}
